@@ -10,7 +10,7 @@ m = p * q
 # Euler φ function
 phi = m - p - q + 1
 
-k = 48611  # must gcd(phi(primeProduct), exp) = 1
+k = 48611  # must gcd(phi(m), exp) = 1
 
 # k * u - φ(m) * = 1
 u = xgcd(k, phi)
